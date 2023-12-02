@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.clock-time {
+  width: 100%;
+  min-height: 90.8vh;
+  color: #fff;
+  position: relative;
+  background: linear-gradient(45deg, #08001f, #6f58bc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-weight: 700;
+}
+.container {
+  width: 800px;
+  height: 180px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container::before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: #f41b75;
+  border-radius: 5px;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  z-index: -1;
+}
+
+.container::after {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: #419aff;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  bottom: -50px;
+  z-index: -1;
+}
+.clock {
+  width: 100%;
+  height: 100%;
+  background: rgba(235, 0, 255, 0.11);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(40px);
+}
+
+.clock span {
+  font-size: 80px;
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.clock span::after {
+  font-size: 16px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#hours::after {
+  content: "HOURS";
+}
+#minutes::after {
+  content: "MINUTES";
+}
+#seconds::after {
+  content: "SECONDS";
+}
+.button-action {
+  width: 800px;
+  height: 180px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-action .check-in,
+.check-out,
+.go-out,
+.go-in {
+  width: 150px;
+  height: 70px;
+  background-color: #419aff;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 5px;
+}
+.button-action .check-in:hover,
+.check-out:hover,
+.go-out:hover,
+.go-in:hover {
+  background-color: #0c70e4;
+  color: #ccc;
+}

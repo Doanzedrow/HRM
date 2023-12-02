@@ -1,0 +1,22 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search-form{
+    margin-top: 20px;
+}
+.candidate-list
+{
+    margin-top: 20px;
+}
+.btn-add{
+    position: absolute;
+    right: 0;
+    top: 60%;
+    text-align: center;
+}
+.button-add{
+    margin-top: 20px;
+  }
+.button-add{
+    margin-top: 20px;
+  }

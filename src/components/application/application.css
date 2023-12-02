@@ -1,0 +1,17 @@
+.col-left{
+    display: flex;
+    justify-content: flex-end;
+}
+.col-right{
+    display: flex;
+    justify-content: flex-start;
+}
+.input-left{
+    margin-right: 25px;
+    width: 500px;
+}
+.input-right{
+    margin-left: 25px;
+    width: 500px;
+}
+

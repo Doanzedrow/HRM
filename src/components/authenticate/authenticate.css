@@ -1,0 +1,61 @@
+.default-layout {
+    height: 100vh;
+    background-color: #ffffff;
+    padding: unset;
+    overflow: hidden;
+  }
+  
+  .default-layout .left-content {
+    height: 100vh;
+    padding: 42px 40px;
+    background: #fff6f6 0% 0% no-repeat padding-box;
+  }
+  
+  .default-layout .left-content .left-background {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .default-layout .left-content .left-background .logo {
+    width: 132px;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .default-layout .left-content .left-background .title {
+    font-size: 24px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .default-layout .left-content .left-background .sign-up-img {
+    position: absolute;
+    width: 514px;
+  }
+  .login-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 40px; 
+  }
+  .content {
+    width: 400px;
+  }
+  .forgot-password {
+    color: #f64c72;
+    text-align: right;
+  }
+  .login-title {
+    margin-bottom: 50px;
+  }
+  .full-width {
+    width: 100%;
+  }

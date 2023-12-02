@@ -1,0 +1,13 @@
+.search-form{
+    margin-top: 20px;
+}
+.department-list
+{
+    margin-top: 20px;
+}
+.btn-add{
+    position: absolute;
+    right: 0;
+    top: 60%;
+    text-align: center;
+}
